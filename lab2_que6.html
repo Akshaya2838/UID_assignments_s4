@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> styled clickable list</title>
+        <style>
+            #clickable-list{
+                list-style-type:circle;
+            }
+            #clickable-list li{
+                font-style: italic;
+            }
+            #clickable_list li a{
+                text-decoration: none;
+            }
+            #clickable-list li a:link{
+                color:blue;
+            }
+            #clickable-list li a:visited{
+                color:violet;
+            }
+            #clickable-list li a:hover{
+                color:red;
+            }
+            #clickable-list li a:active{
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+     <h1>Clickable Unordered list</h1>
+   <ul id="clickable_list">
+    <li><a href="https://www.google.com">Google</a></li>
+    <li><a href="https://www.yahoo.com">Yahoo</a></li>
+    <li><a href="https://www.microsoft.com">Microsoft</a></li>
+   </ul>
+    </body>
+</html>
